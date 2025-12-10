@@ -1,7 +1,6 @@
-# Minimalistic Wallpaper Collection
-
-[![images](https://custom-icon-badges.demolab.com/github/directory-file-count/DenverCoder1/Minimalistic-Wallpaper-Collection/images?label=images&logo=image)](https://github.com/DenverCoder1/Minimalistic-Wallpaper-Collection/tree/main/images)
-[![license](https://custom-icon-badges.demolab.com/github/license/denvercoder1/custom-icon-badges?logo=file-badge&logoColor=white&label=code+license&color=success)](https://github.com/DenverCoder1/Minimalistic-Wallpaper-Collection/blob/main/LICENSE)
+# Minimalistic Wallpapers
+[![images](https://custom-icon-badges.demolab.com/github/directory-file-count/Pro-Bandey/Minimalistic-Wallpapers/images?label=images&logo=image)](https://github.com/Pro-Bandey/Minimalistic-Wallpapers/tree/main/images)
+[![license](https://custom-icon-badges.demolab.com/github/license/Pro-Bandey/custom-icon-badges?logo=file-badge&logoColor=white&label=code+license&color=success)](https://github.com/Pro-Bandey/Minimalistic-Wallpapers/blob/main/LICENSE)
 [![discord](https://custom-icon-badges.demolab.com/discord/819650821314052106?color=7289DA&logo=comments&label=discord&logoColor=white)](https://discord.gg/fPrdqh3Zfu)
 
 This is my collection of minimalistic, flat art, and colorful, digital nature wallpapers.
@@ -9,8 +8,9 @@ This is my collection of minimalistic, flat art, and colorful, digital nature wa
 **Disclaimer:** I do not claim ownership of the wallpapers appearing in this repository. Most of these wallpapers were found on [Reddit](https://www.reddit.com/r/wallpaper/), DeviantArt, or Artstation. If you find images in this repository owned by you and are of limited use, please let me know and I will remove them.
 
 ## Wallpapers
-
+<!--
 To view a gallery of all 300+ wallpapers, [click here](https://minimalistic-wallpaper.demolab.com/)!
+-->
 
 [![screenshot](https://user-images.githubusercontent.com/20955511/186479660-475532e8-427d-4df1-a19d-7f94090805b1.png)](https://minimalistic-wallpaper.demolab.com/)
 
