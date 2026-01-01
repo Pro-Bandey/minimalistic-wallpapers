@@ -1,0 +1,32 @@
+name: Generate Image Manifest
+on:
+  push:
+    paths:
+      - 'Img/**' # Change "Img" to your main folder name
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Generate JSON
+        run: |
+          echo "[" > list.json
+          find Img -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" -o -iname "*.webp" -o -iname "*.avif" \) | while read file; do
+            NAME=$(basename "$file")
+            SIZE=$(stat -c%s "$file")
+            # Get the actual commit date of the file
+            DATE=$(git log -1 --format=%ct "$file")
+            # Construct the JSON object
+            echo "{\"name\":\"$NAME\",\"path\":\"$file\",\"size\":$SIZE,\"date\":$DATE}," >> list.json
+          done
+          sed -i '$ s/.$//' list.json # Remove last comma
+          echo "]" >> list.json
+      - name: Commit and Push
+        run: |
+          git config --global user.name "Github-Actions"
+          git config --global user.email "action@github.com"
+          git add list.json
+          git commit -m "Update image manifest" || exit 0
+          git push
