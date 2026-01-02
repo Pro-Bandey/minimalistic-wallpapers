@@ -1,0 +1,153 @@
+name: Build CDN Image Metadata
+
+on:
+  push:
+    paths:
+      - "images/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  metadata:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          npm install image-size
+
+      - name: Generate metadata
+        run: |
+          node <<'EOF'
+          const fs = require("fs");
+          const path = require("path");
+          const crypto = require("crypto");
+          const { execSync } = require("child_process");
+          const sizeOf = require("image-size");
+
+          const ROOT = "images";
+          const OUT = "images-meta.json";
+          const allowed = /\.(png|jpe?g|webp|bmp|tiff)$/i;
+
+          if (!fs.existsSync(ROOT)) {
+            console.log("No images directory found.");
+            process.exit(0);
+          }
+
+          function walk(dir) {
+            return fs.readdirSync(dir).flatMap(f => {
+              const p = path.join(dir, f);
+              return fs.statSync(p).isDirectory() ? walk(p) : p;
+            }).filter(f => allowed.test(f));
+          }
+
+          function gitDate(file, first = false) {
+            try {
+              const cmd = first
+                ? `git log --follow --diff-filter=A --format=%aI -- "${file}" | tail -1`
+                : `git log -1 --format=%aI -- "${file}"`;
+              const res = execSync(cmd).toString().trim();
+              return res ? res.slice(0, 10) : new Date().toISOString().slice(0, 10);
+            } catch {
+              return new Date().toISOString().slice(0, 10);
+            }
+          }
+
+          const files = walk(ROOT);
+          const hashes = {};
+          const images = [];
+
+          for (const file of files) {
+            const buf = fs.readFileSync(file);
+            const hash = crypto.createHash("sha256").update(buf).digest("hex");
+            
+            let dimensions = { width: 0, height: 0 };
+            try { dimensions = sizeOf(buf); } catch (e) {}
+            
+            const stat = fs.statSync(file);
+            const ext = path.extname(file).slice(1).toLowerCase();
+            
+            // Fixed folder logic: gets the relative path within the images directory
+            const relativePath = path.relative(ROOT, path.dirname(file));
+            const folder = relativePath === "" ? "root" : relativePath.replace(/\\/g, "/");
+
+            let dpi = "unknown", bit = "unknown";
+            try {
+              const r = execSync(`identify -format "%x|%z" "${file}"`)
+                .toString().trim().split("|");
+              dpi = r[0] || "unknown"; 
+              bit = r[1] || "unknown";
+            } catch {}
+
+            hashes[hash] = (hashes[hash] || 0) + 1;
+
+            images.push({
+              id: hash.slice(0, 12), // Slightly longer ID for better collision resistance
+              name: path.basename(file),
+              src: file.replace(/\\/g, "/"),
+              folder,
+              ext,
+              width: dimensions.width,
+              height: dimensions.height,
+              aspect_ratio: dimensions.width && dimensions.height ? +(dimensions.width / dimensions.height).toFixed(3) : 0,
+              dpi,
+              bit_depth: bit,
+              kb: +(stat.size / 1024).toFixed(2),
+              hash,
+              dates: {
+                added: gitDate(file, true),
+                updated: gitDate(file)
+              }
+            });
+          }
+
+          const duplicates = Object.values(hashes).filter(v => v > 1).length;
+
+          fs.writeFileSync(
+            OUT,
+            JSON.stringify({
+              version: 1,
+              generated_at: new Date().toISOString(),
+              total: images.length,
+              duplicates,
+              images
+            }, null, 2)
+          );
+          console.log(`Successfully processed ${images.length} images.`);
+          EOF
+
+      - name: Deploy to Output Branch
+        run: |
+          # 1. Store the generated file in a temporary location
+          cp images-meta.json /tmp/images-meta.json
+          
+          # 2. Setup Git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 3. Switch to (or create) the output branch
+          git fetch origin
+          if git show-ref --verify --quiet refs/remotes/origin/output; then
+            git checkout output
+            git reset --hard origin/output
+          else
+            git checkout --orphan output
+          fi
+          
+          # 4. Clean everything and bring back only the JSON
+          git rm -rf .
+          cp /tmp/images-meta.json .
+          
+          # 5. Commit and Push
+          git add images-meta.json
+          git commit -m "chore: update cdn metadata [skip ci]" || echo "No changes to commit"
+          git push origin output --force
