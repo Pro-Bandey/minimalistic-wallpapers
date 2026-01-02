@@ -127,27 +127,33 @@ jobs:
 
       - name: Deploy to Output Branch
         run: |
-          # 1. Store the generated file in a temporary location
+          # 1. Store the generated file safely and REMOVE from current workspace
           cp images-meta.json /tmp/images-meta.json
+          rm images-meta.json
           
           # 2. Setup Git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 3. Switch to (or create) the output branch
+          # 3. Fetch and Switch branch
           git fetch origin
           if git show-ref --verify --quiet refs/remotes/origin/output; then
-            git checkout output
+            # Branch exists: Force switch to it
+            git checkout -f output
             git reset --hard origin/output
           else
+            # Branch doesn't exist: Create orphan
             git checkout --orphan output
           fi
           
-          # 4. Clean everything and bring back only the JSON
-          git rm -rf .
-          cp /tmp/images-meta.json .
+          # 4. Wipe the workspace on the new branch to keep it metadata-only
+          git rm -rf . || true
           
-          # 5. Commit and Push
+          # 5. Bring the file back from the temporary location
+          cp /tmp/images-meta.json images-meta.json
+          
+          # 6. Commit and Push
           git add images-meta.json
+          # Use --allow-empty in case the JSON content hasn't actually changed
           git commit -m "chore: update cdn metadata [skip ci]" || echo "No changes to commit"
           git push origin output --force
