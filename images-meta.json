@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generated_at": "2026-01-13T14:51:57.785Z",
-  "total": 481,
-  "duplicates": 0,
+  "generated_at": "2026-01-13T14:57:45.822Z",
+  "total": 483,
+  "duplicates": 1,
   "images": [
     {
       "id": "7b58699ccbce",
@@ -2562,6 +2562,24 @@
     },
     {
       "id": "c2373f09a818",
+      "name": "city-view-landscape-view-design-illustration-vector.jpg",
+      "src": "images/city-view-landscape-view-design-illustration-vector.jpg",
+      "folder": "root",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 88.02,
+      "hash": "c2373f09a818266bccffa3faf62c7203dbb621843d81bf1b2aae3ab20bc64155",
+      "dates": {
+        "added": "2026-01-03",
+        "updated": "2026-01-13"
+      }
+    },
+    {
+      "id": "c2373f09a818",
       "name": "city-view-landscape-view-design-illustration.jpg",
       "src": "images/city-view-landscape-view-design-illustration.jpg",
       "folder": "root",
@@ -5096,6 +5114,24 @@
       "dates": {
         "added": "2023-04-26",
         "updated": "2023-04-26"
+      }
+    },
+    {
+      "id": "f16741baaca4",
+      "name": "night-lake-landscape-view-design-illustration-vector.jpg",
+      "src": "images/night-lake-landscape-view-design-illustration-vector.jpg",
+      "folder": "root",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 442.03,
+      "hash": "f16741baaca451b0dc4305d71fe2ef8ed25eae6c96d03bb6458bbd1f38c7d4db",
+      "dates": {
+        "added": "2026-01-13",
+        "updated": "2026-01-13"
       }
     },
     {
