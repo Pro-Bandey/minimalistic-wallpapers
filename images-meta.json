@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "generated_at": "2026-01-13T14:57:45.822Z",
-  "total": 483,
+  "generated_at": "2026-01-14T08:28:44.024Z",
+  "total": 579,
   "duplicates": 1,
   "images": [
     {
@@ -38,6 +38,1734 @@
       "dates": {
         "added": "2026-01-13",
         "updated": "2026-01-13"
+      }
+    },
+    {
+      "id": "5679ebb91e3e",
+      "name": "3squares.png",
+      "src": "images/D3xT/3squares.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "28.350000000000001421",
+      "bit_depth": "8",
+      "kb": 3.73,
+      "hash": "5679ebb91e3e02d0be9a0b3370c233714fa51bc1fafe10ccb1e81d4954e95f3a",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "a2772e20ce1b",
+      "name": "4k-ai-mountain.jpg",
+      "src": "images/D3xT/4k-ai-mountain.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 651.41,
+      "hash": "a2772e20ce1b72d867fa91c40696defa2eb7f27dd986bea56b35ea04d880ab7f",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "f93295d54a09",
+      "name": "4k-keyboard.jpg",
+      "src": "images/D3xT/4k-keyboard.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 199.38,
+      "hash": "f93295d54a099820b64a2e196ba8d0a098a2eb28c84de6fc242bf5e21dcfdc78",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "66c0dc326c0f",
+      "name": "Antman.jpg",
+      "src": "images/D3xT/Antman.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 307.14,
+      "hash": "66c0dc326c0f896750562388710caf59a99d51cd69806521a40f0b27c4f94ab0",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "74c1f1413b59",
+      "name": "Black-panther.jpg",
+      "src": "images/D3xT/Black-panther.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 165.91,
+      "hash": "74c1f1413b59d09ae0a1e7f3867afd2e285db56a84392463cfc80b08f755ab89",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "36731663fa32",
+      "name": "Computerized_Art_3440x1440_7.jpg",
+      "src": "images/D3xT/Computerized_Art_3440x1440_7.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 433.19,
+      "hash": "36731663fa3208336b3529deb3c0a6c079ed8bf895c8c8dadcc0d6c5cccd3753",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "d21ef9384351",
+      "name": "Spider-man.jpg",
+      "src": "images/D3xT/Spider-man.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "96",
+      "bit_depth": "8",
+      "kb": 263.79,
+      "hash": "d21ef93843516bc5d130d8dc0277757ba62921fbc7dd137c3ca106e6200be735",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "64b1cb0c73a6",
+      "name": "TokyoSimplistic.jpg",
+      "src": "images/D3xT/TokyoSimplistic.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 268.01,
+      "hash": "64b1cb0c73a6b4ba72940bcf449f084afbb6b1c4ba6365b9a91c59d1846f2dd0",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "544e8056c84b",
+      "name": "Trex-moon.jpg",
+      "src": "images/D3xT/Trex-moon.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 121.1,
+      "hash": "544e8056c84b05660f265bccb25e741a4255a9eee521decaca43bc75bf315e76",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "7fc43d08e26c",
+      "name": "abandoned.jpg",
+      "src": "images/D3xT/abandoned.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 525.21,
+      "hash": "7fc43d08e26cfd14e9f2e40e367be24c0a69496ed1182f2162fa047a012cd536",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "4b49e438f6e5",
+      "name": "abstract.jpg",
+      "src": "images/D3xT/abstract.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 929.35,
+      "hash": "4b49e438f6e5c2548ed5e5a4671a28c61e6aa607f8c7b3b5d1b3ee55d8df5519",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "ed3826822834",
+      "name": "alfa.png",
+      "src": "images/D3xT/alfa.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "28.350000000000001421",
+      "bit_depth": "8",
+      "kb": 99.1,
+      "hash": "ed38268228342f202afb8538e4e8378b8afc789bb570aa6259d9129299ca0f85",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "ead2005ae5d3",
+      "name": "alien_planet.jpeg",
+      "src": "images/D3xT/alien_planet.jpeg",
+      "folder": "D3xT",
+      "ext": "jpeg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 1108.28,
+      "hash": "ead2005ae5d3fbbdbdad8d4b2895c9e2b585157e6ccf0765759167b188a3b562",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "b262c0eba8fb",
+      "name": "anime-chick.jpg",
+      "src": "images/D3xT/anime-chick.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 221.81,
+      "hash": "b262c0eba8fb23b9d9b67e1fae44d4aae3e6b8960f97fe28afd62c3f6b8479a5",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "b470719fbb27",
+      "name": "anime-nord.png",
+      "src": "images/D3xT/anime-nord.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "37.799999999999997158",
+      "bit_depth": "8",
+      "kb": 170.53,
+      "hash": "b470719fbb27df6c95a8a84134260e6085243c77740e472989f1f410d8a9c8ac",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "158551e111ad",
+      "name": "anime_cafe_tokyonight.png",
+      "src": "images/D3xT/anime_cafe_tokyonight.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 1202.91,
+      "hash": "158551e111ad350b6aa9416265bd80d19050ff6aae43e6173f02fcf2941c2df3",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "4ee161ed49f4",
+      "name": "anime_skyline.png",
+      "src": "images/D3xT/anime_skyline.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 728,
+      "hash": "4ee161ed49f40cf4bcdeabd90adf2979d7b3e17abacbdbe449572a87f0575abd",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "e42a81542181",
+      "name": "apple_gruvbox.jpg",
+      "src": "images/D3xT/apple_gruvbox.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 167.33,
+      "hash": "e42a8154218144ee845cecb693878a35f62ee8391143822368c82a421e227fee",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "d03836deec8d",
+      "name": "astronaut-balloons.jpg",
+      "src": "images/D3xT/astronaut-balloons.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 83.61,
+      "hash": "d03836deec8d7444d1d8c189c2ff0916a3e6f1bb8ec3bc2ea8cd1b5071ad0293",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "a4c31f24532a",
+      "name": "astronaut-planet.jpg",
+      "src": "images/D3xT/astronaut-planet.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 188.75,
+      "hash": "a4c31f24532a109021f39667d12c951fa214f2c6ac9f08de7e7fd6e5352dd53a",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "195cc52b946b",
+      "name": "astronaut-rocket.jpg",
+      "src": "images/D3xT/astronaut-rocket.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 99.59,
+      "hash": "195cc52b946b17f0aec702109efafeda6d2f8c5c4f425c9544b7360dee90eead",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "df62ab0a3128",
+      "name": "astronaut.jpg",
+      "src": "images/D3xT/astronaut.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 118.98,
+      "hash": "df62ab0a31282e282cf273c513a33c94bc146e339d8362f030042d5f7998992a",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "0737aa8f0e2c",
+      "name": "australia.jpg",
+      "src": "images/D3xT/australia.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 209.79,
+      "hash": "0737aa8f0e2c6e1b55a2b0b3153aa9c1443e1b3217e830ccc7c3bc8f6769496f",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "5047cfa83cce",
+      "name": "awesome.png",
+      "src": "images/D3xT/awesome.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 49.16,
+      "hash": "5047cfa83cce6859ba251e2b0b84e38ac7fce1be94b98cebfc9623140e426b2c",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "4fa087b641ef",
+      "name": "beautiful.jpg",
+      "src": "images/D3xT/beautiful.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 313.99,
+      "hash": "4fa087b641eff47b27d0ae0f4670c8cf05eea7a87850473c33ce7ac4c40635b5",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "206d2b403a31",
+      "name": "berserkdrac.png",
+      "src": "images/D3xT/berserkdrac.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "113.37999999999999545",
+      "bit_depth": "8",
+      "kb": 434.64,
+      "hash": "206d2b403a3154c26330e2ae12fbd0864b17644460c4777d15d1879dd9dcf699",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "1ea8c5f8a391",
+      "name": "bici.jpg",
+      "src": "images/D3xT/bici.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 356.47,
+      "hash": "1ea8c5f8a3913403bab814de771b4050ee46060c6a789448715ba8600a016e70",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "f9dba58ec49c",
+      "name": "black-white-girl.png",
+      "src": "images/D3xT/black-white-girl.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "28.350000000000001421",
+      "bit_depth": "8",
+      "kb": 458.08,
+      "hash": "f9dba58ec49cf1fb03726f8b3d62e087bd9c165bbe8396522f3da851c328b260",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "cd0942a44376",
+      "name": "black.jpg",
+      "src": "images/D3xT/black.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 236.63,
+      "hash": "cd0942a44376528653923715f0a6c0dbee120bd16c4295efa071c27a12d34317",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "e677a1edb406",
+      "name": "blue-black-girl.png",
+      "src": "images/D3xT/blue-black-girl.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 215.94,
+      "hash": "e677a1edb4064c1a4c039e94130ca4e6395d077158db9032eb020365f86270ef",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "8c25c1ec463e",
+      "name": "blue-waves.png",
+      "src": "images/D3xT/blue-waves.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 230.15,
+      "hash": "8c25c1ec463e5f2a72bedd64cbc762dfd7c3d0db8d2c32660ba24a334060803f",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "18641e5857d8",
+      "name": "bmw.jpg",
+      "src": "images/D3xT/bmw.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 446.35,
+      "hash": "18641e5857d818156fb03d4b652c7acd219e62e00cb4fe1384846fc9c1839977",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "9d9de4481ed3",
+      "name": "camp_day.png",
+      "src": "images/D3xT/camp_day.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "118.10989010989011661",
+      "bit_depth": "8",
+      "kb": 96.45,
+      "hash": "9d9de4481ed3b8131388e88fd46dc066ae1c2d28bc270cc881132d87592d72c8",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "e1c224e03adc",
+      "name": "cat.jpg",
+      "src": "images/D3xT/cat.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 45.86,
+      "hash": "e1c224e03adcd10fc2352c098931953dde27a5e57e76d22898e34646b4da5aea",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "7a086a092ded",
+      "name": "cat_anime-girl.png",
+      "src": "images/D3xT/cat_anime-girl.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 1602.35,
+      "hash": "7a086a092ded2deee2f03cda2adcec30f8245d3051fc118d38fdbae231567cd6",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "afb8bb551319",
+      "name": "catpuccin_samurai.png",
+      "src": "images/D3xT/catpuccin_samurai.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 1254.16,
+      "hash": "afb8bb5513198c5cc2408ce7295ff045d22606e681f6e0e460daa1a1ffbabb8d",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "017f69d82f05",
+      "name": "catpuccin_w.png",
+      "src": "images/D3xT/catpuccin_w.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "37.799999999999997158",
+      "bit_depth": "8",
+      "kb": 590.71,
+      "hash": "017f69d82f05e1962ef7b61a3fb33c9770bd13d278f461aeb112fe9e5cb90d16",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "0cfd212eb89d",
+      "name": "circuits.png",
+      "src": "images/D3xT/circuits.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 235.96,
+      "hash": "0cfd212eb89d5957f10275791dad1afd9c086690f1c92f79bee71a8481ce35f6",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "9870a715d355",
+      "name": "classic-arch.png",
+      "src": "images/D3xT/classic-arch.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 286.32,
+      "hash": "9870a715d3551e0d36bc3b6c4e8ae6d3f54fbe9d8546f83e32584ea29a3f0a91",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "43428555dd13",
+      "name": "cliff-edge.jpg",
+      "src": "images/D3xT/cliff-edge.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 227.5,
+      "hash": "43428555dd137537d2a4b7cfd9bd98d21d65e10b8018a23ae9e8f52fa0287490",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "c27dd6cb7b28",
+      "name": "coffee.jpg",
+      "src": "images/D3xT/coffee.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 20.93,
+      "hash": "c27dd6cb7b28f5066dba9c04d8141908bc7a07ee7e306ffdc2bcf3e3860df428",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "4769c3a6fb61",
+      "name": "color-waves.png",
+      "src": "images/D3xT/color-waves.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 186.64,
+      "hash": "4769c3a6fb61dda1276859155a0c18bd535fe984bef9bd9ba8d81dfc80fae4f7",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "6c7f5ef2bd24",
+      "name": "colors.jpg",
+      "src": "images/D3xT/colors.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 1601.65,
+      "hash": "6c7f5ef2bd240a9f0d5908bd145d7ecb533f3ccc915d291ae6979681d17aeb4d",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "efb83b289706",
+      "name": "dark_pixelart.png",
+      "src": "images/D3xT/dark_pixelart.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 34.35,
+      "hash": "efb83b289706c0a56a2b58a08aad6e6b87c6b7e73b56733ed0d3a57694ba7da2",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "fa648971f92b",
+      "name": "plane_sunset.png",
+      "src": "images/D3xT/plane_sunset.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 508.12,
+      "hash": "fa648971f92b96b3cb3554c9b0710b7313e925269d4fb54f78f2ec4448afdfce",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "bdeb42c665b7",
+      "name": "planet_minimal.png",
+      "src": "images/D3xT/planet_minimal.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 327.26,
+      "hash": "bdeb42c665b7dccc6bde62da4fa0430efa3474cd3b9033cafd0b6424ca00a86b",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "55616a4ed282",
+      "name": "platforms.png",
+      "src": "images/D3xT/platforms.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "28.350000000000001421",
+      "bit_depth": "8",
+      "kb": 50.56,
+      "hash": "55616a4ed2822e76ec74510a772616d86041fc4245fec68323b875f85600eae7",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "2335a02b1ec8",
+      "name": "polar_catppuccin.png",
+      "src": "images/D3xT/polar_catppuccin.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "37.799999999999997158",
+      "bit_depth": "8",
+      "kb": 199.29,
+      "hash": "2335a02b1ec8f63766bbdb58c64ca2d85d0a39f61c5bb76a93447b51f5624ff3",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "d4bfb427a3e9",
+      "name": "puppy.jpg",
+      "src": "images/D3xT/puppy.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 54.59,
+      "hash": "d4bfb427a3e9f316921c29a6e061020f8d4fde4bb6045b58a4b35baba1db1e21",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "19cf62b0dab6",
+      "name": "purple-crystal.png",
+      "src": "images/D3xT/purple-crystal.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 1274.29,
+      "hash": "19cf62b0dab60d84b3b7d4bad7fa05567bd3fa9ffe020374332a693850ec4463",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "e953709f8c8c",
+      "name": "purple_plane_landscape.png",
+      "src": "images/D3xT/purple_plane_landscape.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "28.339999999999999858",
+      "bit_depth": "8",
+      "kb": 525.19,
+      "hash": "e953709f8c8ca075af7dbc0676dc100e73a417a55e4ec6e0c91b43092f5a0b57",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "d9af31be0881",
+      "name": "python-dev.png",
+      "src": "images/D3xT/python-dev.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 503.6,
+      "hash": "d9af31be088183333956914635471aaa1e75d05685fca7197cfcbd93ec1716e4",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "aaea1125c398",
+      "name": "python-minim.png",
+      "src": "images/D3xT/python-minim.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "28.350000000000001421",
+      "bit_depth": "8",
+      "kb": 22.8,
+      "hash": "aaea1125c3980715ac6286ac184b1f1058c3dde4e5b1a5caaef20a253ea866f9",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "a5260b019000",
+      "name": "rad_samurai.jpg",
+      "src": "images/D3xT/rad_samurai.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 567.29,
+      "hash": "a5260b01900098e42f723f4c46dc4bcb073512a36729e2e377988857e6608e39",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "9334668af440",
+      "name": "red-forest.jpg",
+      "src": "images/D3xT/red-forest.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 571.56,
+      "hash": "9334668af4401e3b961df521e55699e0ab3b717b876321687f51841de9b1dbd0",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "795466081355",
+      "name": "retro_market.png",
+      "src": "images/D3xT/retro_market.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 134.53,
+      "hash": "79546608135531dc2d383359caefb8f8c39065fca3c39431f4e48b340fdb9377",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "2effa587b9e4",
+      "name": "rick-tokyonight.png",
+      "src": "images/D3xT/rick-tokyonight.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "28.350000000000001421",
+      "bit_depth": "8",
+      "kb": 291.66,
+      "hash": "2effa587b9e42b474a7e7697a4672585acd9bb4b38d04e7ef968e0904c1a7f3f",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "a0af2475329f",
+      "name": "rick.jpg",
+      "src": "images/D3xT/rick.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 380.08,
+      "hash": "a0af2475329f3457a78d35a6b253b061675b88577d2d6e3ab944fde789f9df00",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "0ae69554d6ac",
+      "name": "rm-rf.jpg",
+      "src": "images/D3xT/rm-rf.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 47.09,
+      "hash": "0ae69554d6ac0bed65b3a6c684eba13642788dd26bb8968a783755548091cfae",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "7d2aeb4e3036",
+      "name": "robot.jpg",
+      "src": "images/D3xT/robot.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 304.9,
+      "hash": "7d2aeb4e303630db9d6905d283b08d0c16f6e25cd77c66cc0dcc679f61183141",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "2744c46ddc28",
+      "name": "rocket.png",
+      "src": "images/D3xT/rocket.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 58.88,
+      "hash": "2744c46ddc288923958c76e7c2013ac3c3e9ec7575363948ed2723dac6754bbd",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "4844fd7cc7f7",
+      "name": "room.jpg",
+      "src": "images/D3xT/room.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 651.05,
+      "hash": "4844fd7cc7f74458d54327a4c1ac42abe0402db5dfd61d09765a52552c2218a7",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "55f65ad62388",
+      "name": "room2.jpg",
+      "src": "images/D3xT/room2.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "240",
+      "bit_depth": "8",
+      "kb": 1346.27,
+      "hash": "55f65ad6238859dc1689e6823578013c68f258fa6245c7ab0f27e365c661d7b1",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "9935a5adc0f7",
+      "name": "routine.jpg",
+      "src": "images/D3xT/routine.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "28",
+      "bit_depth": "8",
+      "kb": 194.2,
+      "hash": "9935a5adc0f7252a0e5b5aefcaaae8339c3daa3258e29ba46c978b4da24612d4",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "ad3b5c915dee",
+      "name": "s4vitar.png",
+      "src": "images/D3xT/s4vitar.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "28.350000000000001421",
+      "bit_depth": "8",
+      "kb": 414.88,
+      "hash": "ad3b5c915deee0b209fae7924b05184c62f5904ed46221b94a87dacef1f4c39b",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "3737797fb065",
+      "name": "s4vitar_old.png",
+      "src": "images/D3xT/s4vitar_old.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "28.350000000000001421",
+      "bit_depth": "8",
+      "kb": 56.02,
+      "hash": "3737797fb0657fa12481704bec1809e2af59cfe3c34327d600b36d1418c1dba0",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "f6b2088250ed",
+      "name": "saturn-rings.jpg",
+      "src": "images/D3xT/saturn-rings.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 185.56,
+      "hash": "f6b2088250edd67b932ed1c3e233118928b0d24ef411b36ca4621ee131764cbf",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "38b58b33a624",
+      "name": "shape-abstract.jpg",
+      "src": "images/D3xT/shape-abstract.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 403.66,
+      "hash": "38b58b33a6244b8e41209c5fe6fd3421768667203a5ee65e7fc1ad08f4d734d1",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "c30f09c56472",
+      "name": "shiny-colors.png",
+      "src": "images/D3xT/shiny-colors.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 268.63,
+      "hash": "c30f09c5647221f87c150562ea5eae2677fe57d2340357f82cd76d51c658301e",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "99706aafd4d3",
+      "name": "shougan_castle.png",
+      "src": "images/D3xT/shougan_castle.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 516.83,
+      "hash": "99706aafd4d3462bef439fc09586c95a7f686eb5c77ed8abdb821bbd89ac89fb",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "7544ab023bc5",
+      "name": "staircase.jpg",
+      "src": "images/D3xT/staircase.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "240",
+      "bit_depth": "8",
+      "kb": 767.05,
+      "hash": "7544ab023bc5ce45ebd976f9fe43e44b97f007ae82c9c3eb07c0aa705182c9c3",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "0f2be4512cfb",
+      "name": "sushi_dark.png",
+      "src": "images/D3xT/sushi_dark.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 1436.75,
+      "hash": "0f2be4512cfb68549f6336559b5ff1aea09303133cfcc1f99a02534c8a346822",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "d929206548ce",
+      "name": "tech.png",
+      "src": "images/D3xT/tech.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 235.44,
+      "hash": "d929206548cea84ce874b9f789937c2582bb78f3aadcdea0ea96e5dfd921b7a6",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "0bdccc48ffda",
+      "name": "towashi.jpg",
+      "src": "images/D3xT/towashi.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 466.51,
+      "hash": "0bdccc48ffda323baf246bf68a85b00e19580f2d3c841e7703747e578a90527b",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "3be35c3271b4",
+      "name": "trigonometry.png",
+      "src": "images/D3xT/trigonometry.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 208.8,
+      "hash": "3be35c3271b4dd0421d946c13f7bfc431f2d03b003ab73dd813345063d4793b1",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "e243b097b9ac",
+      "name": "two-astronauts.png",
+      "src": "images/D3xT/two-astronauts.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 501.72,
+      "hash": "e243b097b9ace692530c1eb08a01443a8bdf99f1c358cc1edfe7ae898e9a9b85",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "c53233ef23bd",
+      "name": "ultrawide_island.png",
+      "src": "images/D3xT/ultrawide_island.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 513.8,
+      "hash": "c53233ef23bd1bd4c2b2f8e8c474bd26077dd4ac8e96e093cdfae3d7b9fca849",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "5076226347c3",
+      "name": "underwater.png",
+      "src": "images/D3xT/underwater.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "28.350000000000001421",
+      "bit_depth": "8",
+      "kb": 132.33,
+      "hash": "5076226347c3709415d83b9f3799e4f99087f64159a28696576c5dd1716bfeec",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "c0edc65b30af",
+      "name": "vader.png",
+      "src": "images/D3xT/vader.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 190.58,
+      "hash": "c0edc65b30af5c8ccbf83593fee080ab13c6d56fdfc2e29b56a923f043cccd3a",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "68f3caaf4705",
+      "name": "venom-crystal.jpg",
+      "src": "images/D3xT/venom-crystal.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 109.4,
+      "hash": "68f3caaf47053dc964be35d0fdef3a469c961043a47dfc9627d4fb1c2603c4a5",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "b14cacbe45d4",
+      "name": "venom.jpg",
+      "src": "images/D3xT/venom.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 193.47,
+      "hash": "b14cacbe45d4880746fe9e8ee5cc8ef7573bde585b7b532a0ef3a36fe8943632",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "9af6a1c71ee4",
+      "name": "virus-nord.png",
+      "src": "images/D3xT/virus-nord.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "35.429999999999999716",
+      "bit_depth": "8",
+      "kb": 381.42,
+      "hash": "9af6a1c71ee4be71e04e05a10cb2aa78cdd7dfdcbdce910ad7a7e5ef4abfea45",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "5ea5964d5dc3",
+      "name": "wallhaven-e7m8zl.jpg",
+      "src": "images/D3xT/wallhaven-e7m8zl.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 570.84,
+      "hash": "5ea5964d5dc3adccef975899c1fb9b8ada5acd0adfea8722c541319f1592d2a6",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "772f5c91c11f",
+      "name": "wallhaven-lmxwdl.jpg",
+      "src": "images/D3xT/wallhaven-lmxwdl.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 332.99,
+      "hash": "772f5c91c11fafd7132e5d1df5bb7888ece803e2de7a039f7bf98a400a377cd3",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "03ca4bded43c",
+      "name": "wallhaven-rrpvd7.png",
+      "src": "images/D3xT/wallhaven-rrpvd7.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "118.10999999999999943",
+      "bit_depth": "8",
+      "kb": 657.26,
+      "hash": "03ca4bded43c07a84415e80baf0734f5f3d63ef9bd8524e53e194ece06a5f4ad",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "462363bdbe88",
+      "name": "wallhaven-z8pdqo.jpg",
+      "src": "images/D3xT/wallhaven-z8pdqo.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 217.87,
+      "hash": "462363bdbe88d66ae3dfb2256193343d369189c80fc9fae4b02dea30ecb29e5b",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "89f9ac1bc126",
+      "name": "wallpaper3-dark.png",
+      "src": "images/D3xT/wallpaper3-dark.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "0.39000000000000001332",
+      "bit_depth": "8",
+      "kb": 84.63,
+      "hash": "89f9ac1bc126e97926c0479727ad661a6e04e1c5a321143e9ebe94b6ba05cb39",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "12b3eb2037c6",
+      "name": "wallpaper_nord_1.png",
+      "src": "images/D3xT/wallpaper_nord_1.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 981.87,
+      "hash": "12b3eb2037c639f11c94a2c48d8ca03a24606b91fdc24ecb6dc2df23f47534a8",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "a683b9360432",
+      "name": "wano_vector.png",
+      "src": "images/D3xT/wano_vector.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "118.10999999999999943",
+      "bit_depth": "8",
+      "kb": 481.81,
+      "hash": "a683b9360432116b7f294cf5227d1f88d2c7a6b1079edf69a733580bd916cdc6",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "3788b9329987",
+      "name": "waves_dracula_flipped.png",
+      "src": "images/D3xT/waves_dracula_flipped.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "75.590000000000003411",
+      "bit_depth": "8",
+      "kb": 190.57,
+      "hash": "3788b932998727f9cc17494e7df0e570c71dc2b5c01bd87772a64cad68ef4a38",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "d059ea1d879c",
+      "name": "white_yinyang.jpg",
+      "src": "images/D3xT/white_yinyang.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 898.34,
+      "hash": "d059ea1d879c1a3dd0baf5bd446cbff8be6d25e647bc4582a62a42bdd1428aec",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "561073b50161",
+      "name": "wide_alien_planet.jpeg",
+      "src": "images/D3xT/wide_alien_planet.jpeg",
+      "folder": "D3xT",
+      "ext": "jpeg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 854.82,
+      "hash": "561073b501617bcb1db134c18899782305e8779007ff459e3f077b98c1321228",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "ecac1e805463",
+      "name": "wide_tokyonight_lines.png",
+      "src": "images/D3xT/wide_tokyonight_lines.png",
+      "folder": "D3xT",
+      "ext": "png",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 244.85,
+      "hash": "ecac1e80546304079fe2b9453f14517831fe967d61812c2d1bc7579015617ee6",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "cab3e450aa48",
+      "name": "windmill.jpg",
+      "src": "images/D3xT/windmill.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 345.4,
+      "hash": "cab3e450aa48280f2443b371d28bbb8e705d1ac766dc33903054a5221864a0be",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "d369d5085188",
+      "name": "wolverine.jpg",
+      "src": "images/D3xT/wolverine.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 131.54,
+      "hash": "d369d5085188c5a4acb103f790a1c2e9b25651e35f6e038c413e27b9eee400f0",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
+      }
+    },
+    {
+      "id": "6c37aaece89a",
+      "name": "you-got-this.jpg",
+      "src": "images/D3xT/you-got-this.jpg",
+      "folder": "D3xT",
+      "ext": "jpg",
+      "width": 0,
+      "height": 0,
+      "aspect_ratio": 0,
+      "dpi": "72",
+      "bit_depth": "8",
+      "kb": 254.38,
+      "hash": "6c37aaece89a80cd7c82fc455cec4d4938c29f04b7e4ce4bfa933366eb9b098a",
+      "dates": {
+        "added": "2026-01-14",
+        "updated": "2026-01-14"
       }
     },
     {
