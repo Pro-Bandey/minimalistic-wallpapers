@@ -3,7 +3,7 @@ name: Build CDN Image Metadata
 on:
   push:
     paths:
-      - "images/**"
+      - "Img/**"
   workflow_dispatch:
 
 permissions:
@@ -17,13 +17,13 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # Required for git log history
 
       - name: Install tools
         run: |
           sudo apt-get update
           sudo apt-get install -y imagemagick
-          npm install image-size
+          # npm install image-size <-- Removed, not needed anymore
 
       - name: Generate metadata
         run: |
@@ -32,15 +32,14 @@ jobs:
           const path = require("path");
           const crypto = require("crypto");
           const { execSync } = require("child_process");
-          const sizeOf = require("image-size");
 
-          const ROOT = "images";
+          const ROOT = "Img";
           const OUT = "images-meta.json";
-          const allowed = /\.(png|jpe?g|webp|bmp|tiff)$/i;
+          const allowed = /\.(png|jpe?g|webp|bmp|tiff|gif|svg)$/i;
 
           if (!fs.existsSync(ROOT)) {
-            console.log("No images directory found.");
-            process.exit(0);
+            console.error(`Error: Directory "${ROOT}" not found.`);
+            process.exit(1);
           }
 
           function walk(dir) {
@@ -70,18 +69,17 @@ jobs:
             const buf = fs.readFileSync(file);
             const hash = crypto.createHash("sha256").update(buf).digest("hex");
             
-            let dimensions = { width: 0, height: 0 };
-            try { dimensions = sizeOf(buf); } catch (e) {}
+            // Width, Height, Aspect Ratio logic removed
             
             const stat = fs.statSync(file);
             const ext = path.extname(file).slice(1).toLowerCase();
             
-            // Fixed folder logic: gets the relative path within the images directory
             const relativePath = path.relative(ROOT, path.dirname(file));
             const folder = relativePath === "" ? "root" : relativePath.replace(/\\/g, "/");
 
             let dpi = "unknown", bit = "unknown";
             try {
+              // Using ImageMagick to get deeper metadata
               const r = execSync(`identify -format "%x|%z" "${file}"`)
                 .toString().trim().split("|");
               dpi = r[0] || "unknown"; 
@@ -91,14 +89,12 @@ jobs:
             hashes[hash] = (hashes[hash] || 0) + 1;
 
             images.push({
-              id: hash.slice(0, 12), // Slightly longer ID for better collision resistance
+              id: hash.slice(0, 12),
               name: path.basename(file),
               src: file.replace(/\\/g, "/"),
               folder,
               ext,
-              width: dimensions.width,
-              height: dimensions.height,
-              aspect_ratio: dimensions.width && dimensions.height ? +(dimensions.width / dimensions.height).toFixed(3) : 0,
+              // width, height, aspect_ratio removed here
               dpi,
               bit_depth: bit,
               kb: +(stat.size / 1024).toFixed(2),
@@ -112,48 +108,53 @@ jobs:
 
           const duplicates = Object.values(hashes).filter(v => v > 1).length;
 
-          fs.writeFileSync(
-            OUT,
-            JSON.stringify({
-              version: 1,
-              generated_at: new Date().toISOString(),
-              total: images.length,
-              duplicates,
-              images
-            }, null, 2)
-          );
+          // --- Custom JSON Formatting Logic ---
+          
+          const headerData = {
+            version: 1,
+            generated_at: new Date().toISOString(),
+            total: images.length,
+            duplicates
+          };
+
+          // 1. Stringify the header normally (pretty print)
+          let jsonOutput = JSON.stringify(headerData, null, 2);
+          
+          // 2. Remove the last closing brace '}' to append the array manually
+          jsonOutput = jsonOutput.substring(0, jsonOutput.lastIndexOf("}"));
+
+          // 3. Create the images array string where each object is 1 line
+          //    We indent by 4 spaces to match the visual hierarchy
+          const imageLines = images.map(img => `    ${JSON.stringify(img)}`);
+          
+          // 4. Join lines with commas and wrap in array brackets
+          const imagesString = `,\n  "images": [\n${imageLines.join(",\n")}\n  ]\n}`;
+          
+          // 5. Combine header and images
+          const finalContent = jsonOutput + imagesString;
+
+          fs.writeFileSync(OUT, finalContent);
+          
           console.log(`Successfully processed ${images.length} images.`);
           EOF
 
       - name: Deploy to Output Branch
         run: |
-          # 1. Store the generated file safely and REMOVE from current workspace
           cp images-meta.json /tmp/images-meta.json
-          rm images-meta.json
-          
-          # 2. Setup Git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # 3. Fetch and Switch branch
           git fetch origin
           if git show-ref --verify --quiet refs/remotes/origin/output; then
-            # Branch exists: Force switch to it
             git checkout -f output
             git reset --hard origin/output
           else
-            # Branch doesn't exist: Create orphan
             git checkout --orphan output
           fi
           
-          # 4. Wipe the workspace on the new branch to keep it metadata-only
           git rm -rf . || true
-          
-          # 5. Bring the file back from the temporary location
           cp /tmp/images-meta.json images-meta.json
           
-          # 6. Commit and Push
           git add images-meta.json
-          # Use --allow-empty in case the JSON content hasn't actually changed
           git commit -m "chore: update cdn metadata [skip ci]" || echo "No changes to commit"
           git push origin output --force
