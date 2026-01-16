@@ -33,7 +33,7 @@ jobs:
           const crypto = require("crypto");
           const { execSync } = require("child_process");
 
-          const ROOT = "Img";
+          const ROOT = "images";
           const OUT = "images-meta.json";
           const allowed = /\.(png|jpe?g|webp|bmp|tiff|gif|svg)$/i;
 
