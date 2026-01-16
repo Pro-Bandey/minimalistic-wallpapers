@@ -3,7 +3,7 @@ name: Build CDN Image Metadata
 on:
   push:
     paths:
-      - "Img/**"
+      - "images/**"
   workflow_dispatch:
 
 permissions:
